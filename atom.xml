@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>旺仔的追忆时光</title>
+  <icon>https://www.gravatar.com/avatar/2a4562d16780e1d2eaa02f6be5b394f0</icon>
+  <subtitle>分享阅读，技术，生活</subtitle>
+  <link href="https://aoiidune.fun/atom.xml" rel="self"/>
+  
+  <link href="https://aoiidune.fun/"/>
+  <updated>2022-10-26T03:30:56.014Z</updated>
+  <id>https://aoiidune.fun/</id>
+  
+  <author>
+    <name>旺仔</name>
+    <email>aoiidune@outlook.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python学习笔记之类</title>
+    <link href="https://aoiidune.fun/undefined/undefined.html"/>
+    <id>https://aoiidune.fun/undefined/undefined.html</id>
+    <published>2022-10-26T02:14:38.000Z</published>
+    <updated>2022-10-26T03:30:56.014Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="knowledge"><a href="#knowledge" class="headerlink" title="knowledge"></a>knowledge</h2><h3 id="类的初始化"><a href="#类的初始化" class="headerlink" title="类的初始化"></a>类的初始化</h3><p>the definition of class</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">ClassName</span>:</span><br><span class="line">&lt;statement-<span class="number">1</span>&gt;</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line">&lt;statement-N&gt;</span><br></pre></td></tr></table></figure><p>a simple example</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># two ways without parameters</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">MyClass</span>:</span><br><span class="line">i = <span class="number">12345</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">f</span>(<span class="params">self</span>):</span><br><span class="line"><span class="keyword">return</span> <span class="string">&#x27;hello world&#x27;</span></span><br><span class="line"><span class="comment">#the other way is instantiation</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">MyClass</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>):</span><br><span class="line">        self.data = []</span><br></pre></td></tr></table></figure><h3 id="含参的类"><a href="#含参的类" class="headerlink" title="含参的类"></a>含参的类</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">High_school_student</span>():</span><br><span class="line">    </span><br><span class="line">    school = <span class="string">&quot;BUPT&quot;</span> </span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self,age,sex</span>):</span><br><span class="line">self.age = age</span><br><span class="line">self.sex = sex</span><br><span class="line">studen1 = High_school_student(<span class="number">18</span>,<span class="string">&#x27;M&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;The age of student is&quot;</span>+<span class="built_in">str</span>(student1.age))</span><br><span class="line"><span class="built_in">print</span>(student1.school)</span><br></pre></td></tr></table></figure><h3 id="类的私有化"><a href="#类的私有化" class="headerlink" title="类的私有化"></a>类的私有化</h3><p>通过在属性成员的名称前加下滑线”__“实现成员的私有化</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">High_school_student</span>():</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self,age,sex</span>)</span><br><span class="line">self.__age = age</span><br><span class="line">self.__aex = sex</span><br><span class="line">student1 = High_school_student(<span class="number">18</span>,<span class="string">&#x27;M&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;The age of student is&quot;</span>+<span class="built_in">str</span>(student.age))</span><br></pre></td></tr></table></figure><p>得到的结果是</p><p><img src="C:\Users\WENXIN2003\AppData\Roaming\Typora\typora-user-images\image-20221026104659804.png" alt="image-20221026104659804"></p><p>但是私有化成员并非不可访问，可以通过_类名__私有变量的方式来进行访问</p><p><img src="C:\Users\WENXIN2003\AppData\Roaming\Typora\typora-user-images\image-20221026105330360.png" alt="image-20221026105330360"></p><p>另外除了属性成员(attribute references),方法(method)也可进行私有化</p><h3 id="类的继承-Inheritance"><a href="#类的继承-Inheritance" class="headerlink" title="类的继承(Inheritance)"></a>类的继承(Inheritance)</h3><p>The syntax for a derived class definition looks like this：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">DeriveClassName</span>(<span class="title class_ inherited__">BaseClassName</span>):</span><br><span class="line">&lt;statement-<span class="number">1</span>&gt;</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line">.</span><br><span class="line">&lt;statement-N&gt;:</span><br></pre></td></tr></table></figure><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">people</span>:</span><br><span class="line"><span class="comment"># define basic attribute</span></span><br><span class="line">name = <span class="string">&#x27; &#x27;</span></span><br><span class="line">age = <span class="number">0</span></span><br><span class="line"><span class="comment"># define private attribute</span></span><br><span class="line">__weight = <span class="number">0</span></span><br><span class="line"><span class="comment"># define methods</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self,n,a,w</span>):</span><br><span class="line">self.name = n</span><br><span class="line">self.age = a</span><br><span class="line">self.__weight = w</span><br><span class="line"><span class="keyword">def</span> <span class="title function_">speak</span>(<span class="params">self</span>):</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;%s 说: 我 &amp;d 岁。&quot;</span>%(self.name,self.age))</span><br><span class="line"><span class="comment"># inheritance</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">student</span>(<span class="title class_ inherited__">people</span>):</span><br><span class="line">grade = <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self,n,a,w,g</span>):</span><br><span class="line"><span class="comment">#调用父类的构造函数</span></span><br><span class="line">people.__init__(self,n,a,w)</span><br><span class="line">self.grade = g</span><br><span class="line"><span class="comment">#覆盖父类的方法</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">speak</span>(<span class="params">self</span>)；</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;%s 说：我 %d 岁了，我在读%d年级&quot;</span>%(self.name,sekf.age,self,grade))</span><br><span class="line"></span><br><span class="line">s = student(<span class="string">&#x27;ken&#x27;</span>,<span class="number">10</span>,<span class="number">60</span>,<span class="number">3</span>)</span><br><span class="line">s.speak()</span><br></pre></td></tr></table></figure><p><img src="C:\Users\WENXIN2003\AppData\Roaming\Typora\typora-user-images\image-20221026111905952.png" alt="image-20221026111905952"></p><h2 id="Practice"><a href="#Practice" class="headerlink" title="Practice"></a>Practice</h2><p>定义一个名为Circle的类，该类表示圆形，它的属性有center和radius，其中center是一个Point对象，而radius是一个数。</p><p>实例化一个Circle对象，来表示一个圆心在(150,100),半径为75的圆形。</p><p>编写一个函数point_in_circle接收一个Circle对象和一个Point对象，并党Point处于Circle的边界或其界内时，返回True</p><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Point</span>():</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self,x,y</span>):</span><br><span class="line">        self.x =x</span><br><span class="line">        self.y =y</span><br><span class="line">    </span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Circle</span>():</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self,x,y,radius</span>):</span><br><span class="line">        self.center = Point(x,y)</span><br><span class="line">        self.radius = radius</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">distance</span>(<span class="params">self,p1,p2</span>):</span><br><span class="line">      <span class="comment">#距离可以采用两点横纵坐标之差的根号下平方和的形式</span></span><br><span class="line">    dist = math.sqrt((p1-self.center.x)**<span class="number">2</span>+</span><br><span class="line">                         (p2-self.center.y)**<span class="number">2</span>)</span><br><span class="line">        <span class="keyword">return</span> dist</span><br><span class="line">    </span><br><span class="line">circle1 = Circle(<span class="number">150</span>,<span class="number">100</span>,<span class="number">75</span>)</span><br><span class="line">point1 = Point(<span class="number">100</span>,<span class="number">100</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">point_in_circle</span>(<span class="params">C1,P1</span>):</span><br><span class="line">   <span class="comment">#用distance方法求得圆心和点间的距离</span></span><br><span class="line">    dist = C1.distance(P1.x,P1.y)</span><br><span class="line">    <span class="comment">#如果两点间距离小于半径则返回True</span></span><br><span class="line">    <span class="keyword">if</span> C1.radius&gt;=dist:</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">    <span class="keyword">else</span> :</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line">output = point_in_circle(circle1,point1)</span><br><span class="line"><span class="built_in">print</span>(output)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="python" scheme="https://aoiidune.fun/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>偶然看到的一个挺有意思的git教学网站及我的一些关于教育形式的思考</title>
+    <link href="https://aoiidune.fun/undefined/undefined.html"/>
+    <id>https://aoiidune.fun/undefined/undefined.html</id>
+    <published>2022-10-15T11:28:38.000Z</published>
+    <updated>2022-10-15T12:52:26.327Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="屡次学习git的失败经历"><a href="#屡次学习git的失败经历" class="headerlink" title="屡次学习git的失败经历"></a>屡次学习git的失败经历</h2><p>​        从我还没有成为一名人工智能专业的大学生的时候，我就听闻了github作为git仓库托管网站（全球最大同性交友网站），在进入大学之后，我更是了解到github对于一名程序员的分量。但是，在看了几个小时的git教学视频之后，我有点对那漫长的教学时间感到绝望了，所以，在被其他的事情吸引之后（主要是想打游戏了），于是就慢慢地搁置了这件事。之后在学习搭建个人网站的时候，我一直在捣鼓如何用git上传本地仓库到远端仓库，<a href="https://aoiidune.fun/2022/10/14/hexo%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4/">辛酸网站搭建历程</a>。</p><h2 id="偶然的了解，十分的亲切"><a href="#偶然的了解，十分的亲切" class="headerlink" title="偶然的了解，十分的亲切"></a>偶然的了解，十分的亲切</h2><p>​        在图书馆的自习室里，不想学习的一个晚上，我如以往一样正在刷着知乎的时候，在一个推荐程序员必玩的几个游戏的清单里面，看到这个网站<a href="https://learngitbranching.js.org/?demo=&locale=zh_CN">Learn Git Branching</a>。清晰的画面演示，有序的课程安排，更重要的是，他是<strong>支持中文</strong>的！！！在吃了太多次英语不好的亏之后，看到这种支持中文的编程资料网站就倍感亲切。在花了大概两个多小时把基础部分和部分拔高部分结束之后，在把它加入我的收藏夹之后，我意犹未尽的退出了网站。值得强调的是，这个网站让我对于git的使用理解上了一个台阶。</p><h2 id="陷入沉思"><a href="#陷入沉思" class="headerlink" title="陷入沉思"></a>陷入沉思</h2><p>​        同样的知识，教育形式的不同，导致了截然不同的结果！以我自己的经历，我自认为我的理解能力在全国的同龄人里算不得太差，从小到大几乎没有参加什么补课，高中也只是一个名不见经传的新建高中，但我的高考成绩还是能支持我进一个顶尖211的。但是当我进入大学之后，糟糕的<strong>线下课堂</strong>教学，直接给我当头一棒。我想，就算上课听不懂，<strong>下课看书</strong>总能看懂吧，当我打开各科的课本的时候，晦涩的说明，层出不穷的名词，以及解释甚少的习题。我真的感到一种绝望感。随后，我选择了去<strong>看网课</strong>，B站，mooc，在盯着屏幕一两个小时之后，我兴冲冲的觉得我学到了，但是我当时没有意识到，光看网课，没有及时在课后进行的巩固的话，课上学的越多，课后只会忘得越多。尤其是当一个人看网课的时候，自律能力不行的话，就会动不动进入摆烂状态。当一个人持续受到打击的时候，有没有外力给予帮助的话，那他整个人的精神状态就会出现崩溃，会出于本能的选择逃避来保护自己。所以当时的我整个大一上都因为这个原因陷入深深的自我怀疑当中。</p><p>​        很多人都说，当你觉得你学得不好的时候，你不要从环境里找原因，要从自己身上找。但在我看来，环境与本身是相互作用的，如果你尝试了种种方法之后还是不能将自己从目前的糟糕环境中摆脱出来的时候，那你该跳出你的个人视角，学会从俯瞰的角度来观察，最简单的方法，去问你周围的同学，他们是怎么学的，如果你周围的同学成绩都与你相差无几的话，那就去扩大范围，去问其他的同学。QQ群是一个很好的平台，如果你们的专业群又或者是其他的水群，看下里面有没有学习比较好的水怪，去加他的好友，去跟他讨论一下学习上的问题。或者到互联网上的一些平台，B站，知乎（我比较推荐，B站的视频载体在学习一些比较碎的知识时候还是不太行的）在看了知乎答主叶峻峣的回答<a href="https://zhuanlan.zhihu.com/p/559705516">学校让人沾染上的 100+ 恶习</a>之后，我对于学习的认知得到极大的重塑，我意识到当前令我陷入自我厌恶的漩涡之中不是别的正是大学相对散漫的环境和紧迫而单一的考核方式。部分大学教师其糟糕的教学方式不仅不会让学生得到他们想要的知识，反而只会挫败他们的信心和学习的念想。在看了越来越多的相关文章，比如说<a href="https://csdiy.wiki/">CS自学指南 (csdiy.wiki)</a>和<a href="https://github.com/SurviveSJTU/SurviveSJTUManual">SurviveSJTU/SurviveSJTUManual交大生存手册</a>之后，和咨询我的北大毕业的表哥和他女朋友（同样是北大毕业）我逐渐了解，大学的大部分教程都是限制学生进一步成长的绊脚石，在互联网时代，学习知识有着更好的途径，每个人都有最适合自己的学习方式。</p><p>​        于目前的我看来，大学生活的意义就是从义务教育的泥潭里爬出来，清醒地认识自己所需要的，然后探索自己最佳的学习方式，而非遵循一板一眼的课程安排，身为一个计算机相关专业的学生，与其赶着早八在大雾课上昏昏欲睡，不如在被窝多躺着一会。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="tips" scheme="https://aoiidune.fun/tags/tips/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo常见命令</title>
+    <link href="https://aoiidune.fun/undefined/undefined.html"/>
+    <id>https://aoiidune.fun/undefined/undefined.html</id>
+    <published>2022-10-14T10:17:43.000Z</published>
+    <updated>2022-10-14T10:51:55.170Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="心得体会"><a href="#心得体会" class="headerlink" title="心得体会"></a>心得体会</h3><p>​        在历经三次的努力之后，终于在10月14日的傍晚在学校的图书馆中搭建了自己的第一格个人博客网站，虽然看上去是个挺简单的，B站各种几分钟速成课程，但我硬是尝试了好多次才成功，一开始我是参照一个UP主的教程[]<a href="https://blog.cuijiacai.com/blog-building/">个人博客搭建教程 | 爱扑bug的熊 (cuijiacai.com)</a> 当时搞了两天，差不多快十多个小时了，去买域名，去绑定netfly和github，已经搭建好了自己的网站了，但是当我兴冲冲的在B站看完网站装扮视频，打算效仿着，给自己也搞一个的时候，我突然发现自己一直上传不了Github的远端代码www,为了解决这个问题尝试了各种各样的办法，翻遍了CSDN和知乎，但是还是没有办法，最后只能暂时搁置。等过了一段时间，突然发现netfly也报错了，估计是版本号对不上了，无奈，最终只能选择别的方法来搭建自己的博客网站了，最终还是通过hexo+githubpage这一选项。实现我的博客网站梦。好耶！</p><h3 id="hexo常见命令"><a href="#hexo常见命令" class="headerlink" title="hexo常见命令"></a>hexo常见命令</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">hexo n &quot;我的博客&quot;  == hexo new &quot;我的博客&quot;#新建文章</span><br><span class="line">hexo g == hexo generate#生成</span><br><span class="line">hexo d == hexo deploy #将新的变化直接部署到gitub上，然后可以通过网页访问，看到变化</span><br><span class="line">hexo s == hexo server #可以在本地的localhotst:4000上直接访问博客</span><br><span class="line"></span><br><span class="line">hexo version #查看各组件的版本</span><br><span class="line">hexo config #查看config中的内容he</span><br><span class="line">hexo list &lt;type&gt;#查看各种的网站的信息，</span><br><span class="line">include:page, post, route, tag, category</span><br><span class="line">hexo migrate #把你的网站从别的系统转移到hexo</span><br><span class="line"></span><br><span class="line">hexo p == hexo path     #改变post的路径</span><br><span class="line">hexo r == hexo replace  #替换到现存的post</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+    <category term="tips" scheme="https://aoiidune.fun/tags/tips/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test_my_site</title>
+    <link href="https://aoiidune.fun/undefined/undefined.html"/>
+    <id>https://aoiidune.fun/undefined/undefined.html</id>
+    <published>2022-10-14T05:18:09.000Z</published>
+    <updated>2022-10-14T05:18:09.901Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://aoiidune.fun/undefined/undefined.html"/>
+    <id>https://aoiidune.fun/undefined/undefined.html</id>
+    <published>2022-10-14T05:17:00.592Z</published>
+    <updated>2022-10-14T11:02:05.914Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
