@@ -4,7 +4,52 @@
   
     
     <entry>
-      <title>妹妹,章鱼烧，肉包与三浦萝卜</title>
+      <title>动手学深度学习day1</title>
+      <link href="/posts/271.html"/>
+      <url>/posts/271.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>参与了datawhale的三月深度学习训练营，由于之前配置过环境，这次就没有花费心思了，不过在之后的学习，我应该会养成记录步骤的习惯，参与到开源学习的氛围中去。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 动手学深度学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/1.html"/>
+      <url>/posts/1.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="11-10"><a href="#11-10" class="headerlink" title="11.10"></a>11.10</h3><p>追加live2d看板娘 增加GitHub页和outlook邮箱 添加开头大图 添加导航框选项<br>下次目标：<br>研究一下文章封面图 再充分研究下buttrtfly文档 </p><h3 id="11-26"><a href="#11-26" class="headerlink" title="11.26"></a>11.26</h3><p>废除live2d看板娘，追加aplayer音乐播放器功能，搞懂理解了封面图的原理<br>下次目标：</p><ol><li>寻找足够充分的封面图，来作为文章封面</li><li>继续研究butterfly文档</li><li>尝试写一点文章</li></ol><h3 id="12-2"><a href="#12-2" class="headerlink" title="12.2"></a>12.2</h3><ul><li>通过<a href="https://github.com/Molunerfinn/PicGo">PicGo</a>绑定<a href="https://sm.ms/">SM.MS</a>图床实现本地部署图床</li><li>更新字体，使用得意黑字体作为主要字体<a href="https://www.fomal.cc/posts/eec9786.html">参考网站</a></li><li>更新文章一篇</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/posts/16107.html"/>
+      <url>/posts/16107.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2022/11/10/YzamUMnTgjcBECV.jpg" alt="0.jpg"></p><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>妹妹,章鱼烧,肉包与三浦萝卜</title>
       <link href="/posts/20178.html"/>
       <url>/posts/20178.html</url>
       
@@ -36,19 +81,6 @@
             <tag> python </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/1.html"/>
-      <url>/posts/1.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="11-10"><a href="#11-10" class="headerlink" title="11.10"></a>11.10</h3><p>追加live2d看板娘 增加GitHub页和outlook邮箱 添加开头大图 添加导航框选项<br>下次目标：<br>研究一下文章封面图 再充分研究下buttrtfly文档 </p><h3 id="11-26"><a href="#11-26" class="headerlink" title="11.26"></a>11.26</h3><p>废除live2d看板娘，追加aplayer音乐播放器功能，搞懂理解了封面图的原理<br>下次目标：</p><ol><li>寻找足够充分的封面图，来作为文章封面</li><li>继续研究butterfly文档</li><li>尝试写一点文章</li></ol><h3 id="12-2"><a href="#12-2" class="headerlink" title="12.2"></a>12.2</h3><ul><li>通过<a href="https://github.com/Molunerfinn/PicGo">PicGo</a>绑定<a href="https://sm.ms/">SM.MS</a>图床实现本地部署图床</li><li>更新字体，使用得意黑字体作为主要字体<a href="https://www.fomal.cc/posts/eec9786.html">参考网站</a></li><li>更新文章一篇</li></ul>]]></content>
-      
-      
       
     </entry>
     
@@ -117,19 +149,6 @@
       <url>/posts/63153.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://s2.loli.net/2022/11/10/YzamUMnTgjcBECV.jpg" alt="0.jpg"></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/posts/16107.html"/>
-      <url>/posts/16107.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2022/11/10/YzamUMnTgjcBECV.jpg" alt="0.jpg"></p><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       
