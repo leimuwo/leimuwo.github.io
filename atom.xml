@@ -6,7 +6,7 @@
   <link href="https://aoii.fun/atom.xml" rel="self"/>
   
   <link href="https://aoii.fun/"/>
-  <updated>2024-12-24T12:05:47.867Z</updated>
+  <updated>2024-12-25T15:58:00.496Z</updated>
   <id>https://aoii.fun/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更新计划</title>
+    <link href="https://aoii.fun/posts/44517.html"/>
+    <id>https://aoii.fun/posts/44517.html</id>
+    <published>2024-12-25T15:45:23.000Z</published>
+    <updated>2024-12-25T15:58:00.496Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>2024年12月25日</p><p>重启更新</p><p>更新计划</p><ol><li>更换网站图标</li><li>研究一下Github Action动态部署\</li><li>寻找一台合适的服务器</li></ol><p>将最近的一些学习结果放在网站上</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>过去一年的展望和将来的打算</title>
