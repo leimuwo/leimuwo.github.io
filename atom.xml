@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>旺仔的追忆时光</title>
-  <icon>https://www.gravatar.com/avatar/2a4562d16780e1d2eaa02f6be5b394f0</icon>
+  <icon>https://www.gravatar.com/avatar/97703ebc361cfee21e5e404984cf6cd0</icon>
   <subtitle>分享阅读，技术，生活</subtitle>
-  <link href="https://aoiidune.fun/atom.xml" rel="self"/>
+  <link href="https://aoii.fun/atom.xml" rel="self"/>
   
-  <link href="https://aoiidune.fun/"/>
+  <link href="https://aoii.fun/"/>
   <updated>2025-05-15T04:09:08.920Z</updated>
-  <id>https://aoiidune.fun/</id>
+  <id>https://aoii.fun/</id>
   
   <author>
     <name>旺仔</name>
-    <email>aoiidune@outlook.com</email>
+    <email>aoiidune@qq.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>被讨厌的勇气阅读体验分享</title>
-    <link href="https://aoiidune.fun/posts/7787.html"/>
-    <id>https://aoiidune.fun/posts/7787.html</id>
+    <link href="https://aoii.fun/posts/7787.html"/>
+    <id>https://aoii.fun/posts/7787.html</id>
     <published>2025-05-15T02:10:31.000Z</published>
     <updated>2025-05-15T04:09:08.920Z</updated>
     
@@ -34,14 +34,14 @@
     
     
     
-    <category term="阅读" scheme="https://aoiidune.fun/tags/%E9%98%85%E8%AF%BB/"/>
+    <category term="阅读" scheme="https://aoii.fun/tags/%E9%98%85%E8%AF%BB/"/>
     
   </entry>
   
   <entry>
     <title></title>
-    <link href="https://aoiidune.fun/posts/1.html"/>
-    <id>https://aoiidune.fun/posts/1.html</id>
+    <link href="https://aoii.fun/posts/1.html"/>
+    <id>https://aoii.fun/posts/1.html</id>
     <published>2024-01-31T12:37:49.100Z</published>
     <updated>2022-12-03T15:45:10.627Z</updated>
     
@@ -60,8 +60,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://aoiidune.fun/posts/16107.html"/>
-    <id>https://aoiidune.fun/posts/16107.html</id>
+    <link href="https://aoii.fun/posts/16107.html"/>
+    <id>https://aoii.fun/posts/16107.html</id>
     <published>2024-01-31T12:37:49.080Z</published>
     <updated>2022-11-25T18:09:23.715Z</updated>
     
@@ -80,8 +80,8 @@
   
   <entry>
     <title>动手学深度学习day2-线性回归</title>
-    <link href="https://aoiidune.fun/posts/12080.html"/>
-    <id>https://aoiidune.fun/posts/12080.html</id>
+    <link href="https://aoii.fun/posts/12080.html"/>
+    <id>https://aoii.fun/posts/12080.html</id>
     <published>2023-03-22T02:59:15.000Z</published>
     <updated>2023-03-22T12:53:09.517Z</updated>
     
@@ -96,14 +96,14 @@
     
     
     
-    <category term="动手学深度学习" scheme="https://aoiidune.fun/tags/%E5%8A%A8%E6%89%8B%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    <category term="动手学深度学习" scheme="https://aoii.fun/tags/%E5%8A%A8%E6%89%8B%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>动手学深度学习day1</title>
-    <link href="https://aoiidune.fun/posts/271.html"/>
-    <id>https://aoiidune.fun/posts/271.html</id>
+    <link href="https://aoii.fun/posts/271.html"/>
+    <id>https://aoii.fun/posts/271.html</id>
     <published>2023-03-21T08:09:05.000Z</published>
     <updated>2023-03-22T12:46:30.799Z</updated>
     
@@ -118,14 +118,14 @@
     
     
     
-    <category term="动手学深度学习" scheme="https://aoiidune.fun/tags/%E5%8A%A8%E6%89%8B%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    <category term="动手学深度学习" scheme="https://aoii.fun/tags/%E5%8A%A8%E6%89%8B%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>妹妹,章鱼烧,肉包与三浦萝卜</title>
-    <link href="https://aoiidune.fun/posts/20178.html"/>
-    <id>https://aoiidune.fun/posts/20178.html</id>
+    <link href="https://aoii.fun/posts/20178.html"/>
+    <id>https://aoii.fun/posts/20178.html</id>
     <published>2022-12-03T14:13:23.000Z</published>
     <updated>2022-12-03T16:53:45.854Z</updated>
     
@@ -140,14 +140,14 @@
     
     
     
-    <category term="galgame" scheme="https://aoiidune.fun/tags/galgame/"/>
+    <category term="galgame" scheme="https://aoii.fun/tags/galgame/"/>
     
   </entry>
   
   <entry>
     <title>python百日记录经验记录</title>
-    <link href="https://aoiidune.fun/posts/39149.html"/>
-    <id>https://aoiidune.fun/posts/39149.html</id>
+    <link href="https://aoii.fun/posts/39149.html"/>
+    <id>https://aoii.fun/posts/39149.html</id>
     <published>2022-11-15T09:11:23.000Z</published>
     <updated>2022-11-25T12:22:19.984Z</updated>
     
@@ -162,14 +162,14 @@
     
     
     
-    <category term="python" scheme="https://aoiidune.fun/tags/python/"/>
+    <category term="python" scheme="https://aoii.fun/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>python学习笔记之类</title>
-    <link href="https://aoiidune.fun/posts/17412.html"/>
-    <id>https://aoiidune.fun/posts/17412.html</id>
+    <link href="https://aoii.fun/posts/17412.html"/>
+    <id>https://aoii.fun/posts/17412.html</id>
     <published>2022-10-26T02:14:38.000Z</published>
     <updated>2022-11-10T12:02:48.568Z</updated>
     
@@ -184,14 +184,14 @@
     
     
     
-    <category term="python" scheme="https://aoiidune.fun/tags/python/"/>
+    <category term="python" scheme="https://aoii.fun/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>偶然看到的一个挺有意思的git教学网站及我的一些关于教育形式的思考</title>
-    <link href="https://aoiidune.fun/posts/26103.html"/>
-    <id>https://aoiidune.fun/posts/26103.html</id>
+    <link href="https://aoii.fun/posts/26103.html"/>
+    <id>https://aoii.fun/posts/26103.html</id>
     <published>2022-10-15T11:28:38.000Z</published>
     <updated>2022-11-25T17:57:37.770Z</updated>
     
@@ -206,14 +206,14 @@
     
     
     
-    <category term="tips" scheme="https://aoiidune.fun/tags/tips/"/>
+    <category term="tips" scheme="https://aoii.fun/tags/tips/"/>
     
   </entry>
   
   <entry>
     <title>hexo常见命令</title>
-    <link href="https://aoiidune.fun/posts/54683.html"/>
-    <id>https://aoiidune.fun/posts/54683.html</id>
+    <link href="https://aoii.fun/posts/54683.html"/>
+    <id>https://aoii.fun/posts/54683.html</id>
     <published>2022-10-14T10:17:43.000Z</published>
     <updated>2022-11-10T12:02:48.566Z</updated>
     
@@ -228,14 +228,14 @@
     
     
     
-    <category term="tips" scheme="https://aoiidune.fun/tags/tips/"/>
+    <category term="tips" scheme="https://aoii.fun/tags/tips/"/>
     
   </entry>
   
   <entry>
     <title>test_my_site</title>
-    <link href="https://aoiidune.fun/posts/63153.html"/>
-    <id>https://aoiidune.fun/posts/63153.html</id>
+    <link href="https://aoii.fun/posts/63153.html"/>
+    <id>https://aoii.fun/posts/63153.html</id>
     <published>2022-10-14T05:18:09.000Z</published>
     <updated>2022-11-10T12:02:48.570Z</updated>
     
